@@ -24,7 +24,7 @@ hr {
 	height: auto;
 	float: right;
 	margin-top: 120px;
-
+	position: static;
 }
 
 
@@ -78,8 +78,6 @@ hr {
   -moz-text-fill-color: transparent;
 }
 
-
-
 #Help {
 	color:rgba(255, 255, 255, 1);
 	opacity:1;
@@ -109,12 +107,52 @@ hr {
 	line-height:undefined;
 }
 
-
 #general_font {
-	color: white
+	color:rgba(255, 255, 255, 1);
 	font-family:Montserrat;
 	text-align:left;
 	font-size:150%;
 	letter-spacing:0;
 	line-height:undefined;
+	text-decoration: none;
+
+}
+
+#Help-2 {
+	color:rgba(255, 255, 255, 1);
+	font-family:Montserrat;
+	font-size:300%;
+	letter-spacing:0;
+	line-height:undefined;
+	text-decoration: none;
+}
+
+img.rounded_David {
+	position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+img.rounded_Chanel {
+	position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+	object-fit: cover;
+
+}
+img.rounded_Michelle {
+	position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+img.rounded_Naasir {
+	position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
 }
