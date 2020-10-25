@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 #e93_1467 {
 	position:relative;
 	opacity:1;
@@ -11,107 +15,101 @@ a {
  }
 
 hr {
-	// background-color: #3479DE;
     background-image: linear-gradient(90deg, #3479DE, #6BCEBD);
-		top: 1000px;
+	top: 10px;
     border: 0;
     height: 10px;
-		position:relative;top:100px;
+	position:relative;
+	box-shadow: 0px 0px 20px #3377DE;
 	}
 
-#logo {
-	width: 400px;
-	height: auto;
-	float: right;
-	margin-top: 120px;
-
-}
-
-
-#About_Us {
+.top_text {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
 	color:rgba(255, 255, 255, 1);
-	opacity:1;
-	width:128px;
-	height:29px;
-	position:absolute;
-	left:5%;
-	top:27px;
-	font-family:Montserrat;
-	text-align:left;
-	font-size:150%;
-	letter-spacing:0;
-	line-height:undefined;
-}
-
-#More_Words {
-	color:rgba(255, 255, 255, 1);
-	opacity:1;
-	width:181px;
-	height:29px;
-	position:absolute;
-	left:20%;
-	top:27px;
-	font-family:Montserrat;
-	text-align:left;
-	font-size:150%;
-	letter-spacing:0;
-	line-height:undefined;
+	font-family:'Montserrat';
+	font-size:120%;
+	font-style:italic;
+	font-weight:100;
 }
 
 #Bear_Beats {
-	background-image: linear-gradient(#3479DE, #6BCEBD);
-	background-size: 100%
-	width:328px;
-	height:78px;
-	position:absolute;
-	left:40%;
-	top:0px;
-	font-family:Montserrat;
+	font-size:300%;
+	font-style:normal;
+	background: -webkit-linear-gradient(45deg, #3479DE, #6BCEBD);
+	text-shadow: 0px 0px 16px #347ADD;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
 
-	text-align:left;
-	font-size:400%;
-	letter-spacing:0;
-	line-height:undefined;
 	-webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
+  	-webkit-text-fill-color: transparent;
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
+}
+
+.front {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	margin-top: 5rem;
+}
+
+#logo {
+	object-fit:contain;
+	width: 350px;
+	height: auto;
 }
 
 
-
-#Help {
+.intro h1 {
 	color:rgba(255, 255, 255, 1);
-	opacity:1;
-	width:67px;
-	height:29px;
-	position:absolute;
-	left:70%;
-	top:27px;
 	font-family:Montserrat;
-	text-align:left;
-	font-size:150%;
-	letter-spacing:0;
-	line-height:undefined;
-}
-#Updates {
-	color:rgba(255, 255, 255, 1);
-	opacity:1;
-	width:116px;
-	height:29px;
-	position:absolute;
-	left:85%;
-	top:27px;
-	font-family:Montserrat;
-	text-align:left;
-	font-size:150%;
-	letter-spacing:0;
-	line-height:undefined;
+	font-style:italic;
+	font-weight: 500;
+	font-size:250%;
 }
 
+.intro p {
+	color:rgba(255, 255, 255, 1);
+	font-family:Montserrat;
+	font-weight: 200;
+	font-size:200%;
+}
+
+.intro button {
+	color:rgba(255, 255, 255, 1);
+	font-family:Montserrat;
+	text-align: left;
+	font-weight: 200;
+	font-size:120%;
+	letter-spacing:0.5px;
+	background: -webkit-linear-gradient(90deg, #3479DE, #6BCEBD);
+	border:none;
+	border-radius: 20px;
+	padding:15px 40px;
+	padding-left:18px;
+}
+
+.dropdown_content {
+	display:flex;
+	flex-direction: column;
+}
+
+/* I have to hide this content and display when top button is 
+	clicked using javascript. will figure out later **/
+.dropdown_content button {
+	font-style:italic;
+	font-weight:100;
+	text-align: left;
+	margin-top:5px;
+	padding: 15px;
+	width:350px;
+}
 
 #general_font {
-	color: white
+	color: white;
 	font-family:Montserrat;
 	text-align:left;
 	font-size:150%;
