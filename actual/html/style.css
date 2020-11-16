@@ -61,7 +61,7 @@ hr {
 	color:rgba(255, 255, 255, 1);
 	font-family:Montserrat;
 	text-align:left;
-	font-size:150%;
+	margin-left: 10px;
 	letter-spacing:0;
 	line-height:undefined;
 	text-decoration: none;
@@ -72,37 +72,20 @@ hr {
 	color:rgba(255, 255, 255, 1);
 	font-family:Montserrat;
 	font-size:300%;
+  margin-left: 10px;
 	letter-spacing:0;
 	line-height:undefined;
 	text-decoration: none;
 }
 
-img.rounded_David {
-	position: absolute;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  object-fit: cover;
+#cover {
+  width: 800px;
+  height: 800px;
+  margin: 6 auto;
 }
-img.rounded_Chanel {
-	position: absolute;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-	object-fit: cover;
 
-}
-img.rounded_Michelle {
-	position: absolute;
-  height: 300px;
-  width: 300px;
+#cover > img {
+  width: 35%;
+  margin: 5.66%;
   border-radius: 50%;
-  object-fit: cover;
-}
-img.rounded_Naasir {
-	position: absolute;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  object-fit: cover;
 }

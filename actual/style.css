@@ -97,7 +97,7 @@ hr {
 	flex-direction: column;
 }
 
-/* I have to hide this content and display when top button is 
+/* I have to hide this content and display when top button is
 	clicked using javascript. will figure out later **/
 .dropdown_content button {
 	font-style:italic;
@@ -110,9 +110,13 @@ hr {
 
 #general_font {
 	color: white;
+  text-align:left;
 	font-family:Montserrat;
-	text-align:left;
-	font-size:150%;
+	font-size:50%;
 	letter-spacing:0;
 	line-height:undefined;
+}
+
+#Help-2 {
+  text-indent: 70%;
 }
