@@ -12,6 +12,37 @@ body {
 </style>
 
 <script>
+    var input = document.getElementById("button1");
+    document.addEventListener('keydown', function(e) {
+      if (e.keyCode == 97) {
+        document.getElementById('button1').click();
+      }
+      if (e.keyCode == 98) {
+        document.getElementById('button2').click();
+      }
+      if (e.keyCode == 99) {
+        document.getElementById('button3').click();
+      }
+      if (e.keyCode == 100) {
+        document.getElementById('button4').click();
+      }
+      if (e.keyCode == 101) {
+        document.getElementById('button5').click();
+      }
+      if (e.keyCode == 102) {
+        document.getElementById('button6').click();
+      }
+      if (e.keyCode == 103) {
+        document.getElementById('button7').click();
+      }
+      if (e.keyCode == 104) {
+        document.getElementById('button8').click();
+      }
+      if (e.keyCode == 105) {
+        document.getElementById('button9').click();
+      }
+
+    });
     var wake = new Audio("../assets/sounds/cubstarttest.wav");
     var cantsay0 = new Audio("../assets/sounds/cantsay0.wav");
     var cantsay1 = new Audio("../assets/sounds/cantsay1.wav");
@@ -27,27 +58,47 @@ body {
 <body>
 
   <div class="e93_1467">
-    <div class="top_text">
-      <p id="About_Us"><a href="html/About Us.html">ABOUT US</a></p>
-      <p id="More_Words"><a href="html/More Words.html">EXTRA</a></p>
-      <p id="Bear_Beats"><a href="index.html">Bear Beats</a></p>
-      <p id="Help"><a href="html/Help.html">HELP</a></p>
-      <p id="Updates"><a href="html/Updates.html">UPDATES</a></p>
+    <div class='top_text'>
+      <p id="About_Us"><a href="About Us.html">ABOUT US</a></p>
+      <p id="More_Words"><a href="More Words.html">EXTRA</a></p>
+      <p id="Bear_Beats"><a href="../index.html">Bear Beats</a></p>
+      <p id="Help"><a href="Help.html">HELP</a></p>
+      <p id="Updates"><a href="Updates.html">UPDATES</a></p>
     </div>
     <hr>
   </div>
 
 <div class="numpad">
 <div class="numpad-row">
-  <button onclick="wake.play()"class="numpadkey">
+  <button id = "button1" onclick="wake.play()"class="numpadkey">
     <div class="inner-numpadkey">
       </div>
     </button>
-    <button onclick="cantsay0.play()"class="numpadkey">
+    <button id = "button2" onclick="cantsay0.play()"class="numpadkey">
       <div class="inner-numpadkey">
         </div>
       </button>
-      <button onclick="cantsay1.play()"class="numpadkey">
+      <button id = "button3" onclick="cantsay1.play()"class="numpadkey">
+        <div class="inner-numpadkey">
+          </div>
+        </button>
+
+
+
+
+
+</div>
+
+<div class="numpad-row">
+  <button id = "button4" onclick="cantsay2.play()"class="numpadkey">
+    <div class="inner-numpadkey">
+      </div>
+    </button>
+    <button id = "button5" onclick="cantsay3.play()"class="numpadkey">
+      <div class="inner-numpadkey">
+        </div>
+      </button>
+      <button id = "button6" onclick="cantsay4.play()"class="numpadkey">
         <div class="inner-numpadkey">
           </div>
         </button>
@@ -55,31 +106,15 @@ body {
 </div>
 
 <div class="numpad-row">
-  <button onclick="cantsay2.play()"class="numpadkey">
+  <button id = "button7" onclick="cantsay5.play()"class="numpadkey">
     <div class="inner-numpadkey">
       </div>
     </button>
-    <button onclick="cantsay3.play()"class="numpadkey">
+    <button id = "button8" onclick="cantsay6.play()"class="numpadkey">
       <div class="inner-numpadkey">
         </div>
       </button>
-      <button onclick="cantsay4.play()"class="numpadkey">
-        <div class="inner-numpadkey">
-          </div>
-        </button>
-
-</div>
-
-<div class="numpad-row">
-  <button onclick="cantsay5.play()"class="numpadkey">
-    <div class="inner-numpadkey">
-      </div>
-    </button>
-    <button onclick="cantsay6.play()"class="numpadkey">
-      <div class="inner-numpadkey">
-        </div>
-      </button>
-      <button onclick="cantsay7.play()"class="numpadkey">
+      <button id = "button9" onclick="cantsay7.play()"class="numpadkey">
         <div class="inner-numpadkey">
           </div>
         </button>
@@ -87,3 +122,7 @@ body {
 </div>
 
 </div>
+
+
+
+</body>
