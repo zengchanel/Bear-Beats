@@ -31,15 +31,17 @@ body {
       <h1>SOUNDBOARD FOR ALL.</h1>
       <p>produce high-quality tunes at the<br> touch of a button</p>
       <div class="dropdown">
-        <button type="button" onclick="someFunc()">SOUNDBOARD</button>
-        <div class="dropdown_content">
-          <button type="button"><a href="html/Regular Soundboard.html">Regular Soundboard</a></button>
-          <button type="button"><a href="html/Keyboard.html">Keyboard</a></button>
-          <button type="button"><a href="html/Numpad.html">Numpad</a></button>
+        <button type="button" class = "dropbtn" onclick="showDropdown()">SOUNDBOARD</button>
+        <div id = "myDropdown" class="dropdown-content">
+          <button type="button" onclick="location.href='html/Regular Soundboard.html'">Regular Soundboard</button>
+          <button type="button" onclick="location.href='html/Keyboard.html'">Keyboard</button>
+          <button type="button" onclick="location.href='html/Numpad.html'">Numpad</button>
         </div>
       </div>
     </div>
     <img id = "logo" src="assets/images/bb_logo.png">
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

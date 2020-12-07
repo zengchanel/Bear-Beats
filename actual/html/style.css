@@ -178,3 +178,32 @@ img.rounded_Naasir {
 }
 
 .container { width: 100%; }
+
+.beat button, input {
+  color:rgba(255, 255, 255, 1);
+  font-family:Montserrat;
+  text-align: center;
+  letter-spacing:0.5px;
+  background: -webkit-linear-gradient(90deg, #3479DE, #6BCEBD);
+  border:none;
+  border-radius: 20px;
+  padding:10px 10px;
+}
+
+::placeholder {
+  color:rgba(200, 255, 255, 1);
+  font-size: 70%;
+}
+
+.beat button:hover {
+    box-shadow: 0px 0px 20px #3377DE;
+}
+
+.beat button:focus {
+  outline:none;
+}
+
+
+
+
+

@@ -25,9 +25,10 @@ body {
     <hr>
   </div>
 
+
 <div class="keyboard">
 <div class="top-row">
-  <button id = "buttonQ" class="soundkey">
+  <button id = "buttonQ"  class="soundkey">
     <div class="inner-key">
       </div>
     </button>
@@ -147,6 +148,20 @@ body {
 
 
 </div>
-
-
 </div>
+
+<div class="beat">
+<!--  
+<input type="text" id="beats" placeholder="Number of Beats" />
+<input type="text" id="sub" placeholder="Beats per Beat" />  
+-->
+  <input type="text" id="bpm" placeholder="Beats Per Minute (bpm)" />
+  <button id="stop" onclick="stop()">Stop</button>
+  <button id="start" onclick="tap()">Start</button>
+  <audio id='met' src="../assets/sounds/Claves.wav"></audio>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

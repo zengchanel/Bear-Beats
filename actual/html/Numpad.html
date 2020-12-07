@@ -52,6 +52,7 @@ body {
     var cantsay5 = new Audio("../assets/sounds/cantsay5.wav");
     var cantsay6 = new Audio("../assets/sounds/cantsay6.wav");
     var cantsay7 = new Audio("../assets/sounds/cantsay7.wav");
+
 </script>
 
 </head>
@@ -131,21 +132,18 @@ body {
 
 
 
-
-<div id="beat"></div>
+<div class="beat">
+<!--  
 <input type="text" id="beats" placeholder="Number of Beats" />
-<input type="text" id="sub" placeholder="Beats per Beat" />
-<input type="text" id="bps" placeholder="Beats Per Second (bps)" />
-<button onclick="metronome.stop()">Stop</button>
-<button onclick="metronome.tap()">Start</button>
+<input type="text" id="sub" placeholder="Beats per Beat" />  
+-->
+  <input type="text" id="bpm" placeholder="Beats Per Minute (bpm)" />
+  <button id="stop" onclick="stop()">Stop</button>
+  <button id="start" onclick="tap()">Start</button>
+  <audio id='met' src="../assets/sounds/Claves.wav"></audio>
+</div>
 
-<script>
-
-
-</script>
-
-
-
+<script src="script.js"></script>
 
 
 

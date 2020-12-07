@@ -90,22 +90,40 @@ hr {
 	border-radius: 20px;
 	padding:15px 40px;
 	padding-left:18px;
+
 }
 
-.dropdown_content {
-	display:flex;
-	flex-direction: column;
+.intro button:hover {
+   	box-shadow: 0px 0px 20px #3377DE;
+}
+
+.intro button:focus {
+	outline:none;
+}
+
+.dropdown-content {
+	display:none;
+	position: absolute;
 }
 
 /* I have to hide this content and display when top button is 
 	clicked using javascript. will figure out later **/
-.dropdown_content button {
+.dropdown-content a {
+	font-family:Montserrat;
 	font-style:italic;
 	font-weight:100;
 	text-align: left;
-	margin-top:5px;
-	padding: 15px;
 	width:350px;
+}
+
+.dropdown-content button {
+	margin-top: 5px;
+}
+
+.show {
+	display:flex;
+	flex-direction: column;
+
 }
 
 #general_font {
