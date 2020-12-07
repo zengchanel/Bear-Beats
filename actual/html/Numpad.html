@@ -12,34 +12,81 @@ body {
 </style>
 
 <script>
-    var input = document.getElementById("button1");
     document.addEventListener('keydown', function(e) {
       if (e.keyCode == 97) {
-        document.getElementById('button1').click();
+        var element = document.getElementById("button1");
+        element.click();
+        element.style.backgroundColor='#3e8e41';
       }
       if (e.keyCode == 98) {
-        document.getElementById('button2').click();
+        var element = document.getElementById("button2");
+        element.click();
+        element.style.backgroundColor='#3e8e41';
       }
       if (e.keyCode == 99) {
-        document.getElementById('button3').click();
+        var element = document.getElementById("button3");
+        element.click();
+        element.style.backgroundColor='#3e8e41';
       }
       if (e.keyCode == 100) {
-        document.getElementById('button4').click();
+        var element = document.getElementById("button4");
+        element.click();
+        element.style.backgroundColor='#3e8e41';
       }
       if (e.keyCode == 101) {
-        document.getElementById('button5').click();
+        var element = document.getElementById("button5");
+        element.click();
+        element.style.backgroundColor='#3e8e41';
       }
       if (e.keyCode == 102) {
-        document.getElementById('button6').click();
+        var element = document.getElementById("button6");
+        element.click();
+        element.style.backgroundColor='#3e8e41';
       }
       if (e.keyCode == 103) {
-        document.getElementById('button7').click();
+        var element = document.getElementById("button7");
+        element.click();
+        element.style.backgroundColor='#3e8e41';
       }
       if (e.keyCode == 104) {
-        document.getElementById('button8').click();
+        var element = document.getElementById("button8");
+        element.click();
+        element.style.backgroundColor='#3e8e41';
       }
       if (e.keyCode == 105) {
-        document.getElementById('button9').click();
+        var element = document.getElementById("button9");
+        element.click();
+        element.style.backgroundColor='#3e8e41';
+      }
+
+    });
+    document.addEventListener('keyup', function(e) {
+      if (e.keyCode == 97) {
+        document.getElementById("button1").style.backgroundColor='#2F80ED';
+      }
+      if (e.keyCode == 98) {
+        document.getElementById('button2').style.backgroundColor='#2F80ED';
+      }
+      if (e.keyCode == 99) {
+        document.getElementById('button3').style.backgroundColor='#2F80ED';
+      }
+      if (e.keyCode == 100) {
+        document.getElementById('button4').style.backgroundColor='#2F80ED';
+      }
+      if (e.keyCode == 101) {
+        document.getElementById('button5').style.backgroundColor='#2F80ED';
+      }
+      if (e.keyCode == 102) {
+        document.getElementById('button6').style.backgroundColor='#2F80ED';
+      }
+      if (e.keyCode == 103) {
+        document.getElementById('button7').style.backgroundColor='#2F80ED';
+      }
+      if (e.keyCode == 104) {
+        document.getElementById('button8').style.backgroundColor='#2F80ED';
+      }
+      if (e.keyCode == 105) {
+        document.getElementById('button9').style.backgroundColor='#2F80ED';
       }
 
     });
@@ -133,9 +180,9 @@ body {
 
 
 <div class="beat">
-<!--  
+<!--
 <input type="text" id="beats" placeholder="Number of Beats" />
-<input type="text" id="sub" placeholder="Beats per Beat" />  
+<input type="text" id="sub" placeholder="Beats per Beat" />
 -->
   <input type="text" id="bpm" placeholder="Beats Per Minute (bpm)" />
   <button id="stop" onclick="stop()">Stop</button>

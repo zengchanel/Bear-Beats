@@ -155,6 +155,12 @@ img.rounded_Naasir {
   position: relative;
 }
 
+
+.numpadkey:active {
+  background-color: #3e8e41
+}
+
+
 .inner-numpadkey {
   background-color: #E0E0E0;
   border: 2px solid white;
@@ -202,8 +208,3 @@ img.rounded_Naasir {
 .beat button:focus {
   outline:none;
 }
-
-
-
-
-
