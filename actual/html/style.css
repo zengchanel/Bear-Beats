@@ -118,6 +118,10 @@ img.rounded_Naasir {
   position: relative;
 }
 
+.soundkey:active {
+  background-color: red;
+}
+
 .inner-key {
   background-color: #E0E0E0;
   border: 2px solid white;
